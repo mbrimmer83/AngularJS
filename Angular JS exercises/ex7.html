@@ -1,0 +1,49 @@
+<!--
+Make a Todo List part 2
+
+Add these features to your todo list:
+
+1. check off a task
+2. remove a task
+
+Hints at the bottom of this file.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Checking off a task
+
+1. Add a checkbox input to the task li for each task
+2. Add the ng-model attribute to the input to bind it to a "done" property of a task. You can now access that task's done status using `task.done`.
+3. Use the `ng-class` attribute on the li to add a 'done' class to it if the associated task is done. Use this syntax: `ng-class="done ? 'done' : ''"`
+4. Style the `done` class with `text-decoration: line-through` to make it appear to have been crossed out.
+
+## Removing a task
+
+1. Add a remove button inside the li for each task
+2. Use ng-click to the button to call a method `removeTask` when it is clicked. You will need to pass task as the argument to that method call, i.e. `ng-click="removeTask(task)"`
+3. Write the `removeTask` method on the $scope object in JS. It will need to use splice to remove the task from the array.
+-->
